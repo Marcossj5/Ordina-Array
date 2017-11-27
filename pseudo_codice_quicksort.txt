@@ -1,0 +1,50 @@
+Start
+leggi Array;
+Scorri Array;
+leggi tutti i numeri;
+confronta primi due numeri;
+il numero più piccolo lo inserisco in ordine;
+escludo numero inserito e confronto con il successivo;
+stampo numeri in ordine crescente;
+
+correzione
+
+Start
+Leggi Array, due cicli for uno dentro l'altro, dove quello interno
+parte ad un ciclo successivo a quello fuori.
+
+numeri=leggi array
+
+for (indice1= 0 fino numeri.lenght  -1 )
+for (indice2 = indice1 +1, fino a numero celle -1)
+start
+    if([numeri indice2] <  [numeri indice1])
+
+scambo i 2 valori;
+
+end
+end
+end
+fine
+
+-----------stesso con i while --------------
+
+start
+        numeri = leggi array
+        indice1 = 0
+        while (indice1 < numero celle)
+    start
+        indice 2 = indice1 +1
+         while (indice2 < numero celle)
+         start
+                if(numeri[indice2] < numeri [indice]
+            start
+ scambio valori
+                end
+indice2 = indice 2 +1
+end
+    indice1 = indice1 +1
+
+             end
+
+fine
